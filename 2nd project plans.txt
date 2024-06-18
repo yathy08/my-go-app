@@ -1,0 +1,26 @@
+my-go-app/
+│
+├── cmd/
+│   └── main.go
+├── internal/
+│   ├── domain/
+│   │   └── user.go
+│   ├── handler/
+│   │   ├── auth.go
+│   │   └── admin.go
+│   ├── repository/
+│   │   └── user_repo.go
+│   ├── service/
+│   │   └── user_service.go
+│   └── middleware/
+│       └── auth_middleware.go
+├── pkg/
+│   ├── config/
+│   │   └── config.go
+│   └── utils/
+│       ├── jwt.go
+│       └── hash.go
+├── go.mod
+└── .github/
+    └── workflows/
+        └── ci.yml
